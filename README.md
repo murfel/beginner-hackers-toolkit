@@ -214,6 +214,26 @@ params – (optional) Dictionary, list of tuples or bytes
     - сохраняете слово и пользователя в базу данных
     - делаете запрос к переводчику и возвращаете http-ответ с переводом
 
+
+# День 3, вторник, 21 февраля 2023
+## Упражнение на JSON
+- Скопировать json отсюда в многострочную строку в питоне (в трёх кавычках): https://en.wikipedia.org/wiki/JSON#Syntax
+- Импортировать библиотеку json `import json`, применить функцию парсинга json-строки в Питоновский словарь: `json.loads(json_string)`.
+- Напечатать офисный номер телефона (`"646 555-4567"`) используя только оператор квадратные скобки у словарей и списков: `[]` у полученного выше словаря.
+
+
+## SQL и базы данных
+Базовый синтаксис SQL, SQLite, драйвер для языка программирования.
+
+SQL https://w3schools.com/sql
+
+
+SQLite для Питона https://docs.python.org/3/library/sqlite3.html
+
+
+## CSV, text
+
+
 # В следующих сериях
 
 ## Советы по Питону 2
@@ -252,9 +272,6 @@ params – (optional) Dictionary, list of tuples or bytes
 - flask
 - не используйте python httpserver - будет очень больно
 
-
-## Базы данных
-Базовый синтаксис SQL, SQLite, драйвер для языка программирования.
 
 ## Чук и Гек, точнее, гит и Гитхаб
 - Создание и подключение SSH ключа: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
