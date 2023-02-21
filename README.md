@@ -252,22 +252,6 @@ params – (optional) Dictionary, list of tuples or bytes
 - flask
 - не используйте python httpserver - будет очень больно
 
-## Советы по Питону
-- Читайте официальную документацию 
-- PEP8
-- black
-- useful built-in functions: type, dir, vars
-- import pdb; pdb.set_trace()
-- logger
-  - https://docs.python.org/3/howto/logging.html
-  - Как сконфигурировать: https://stackoverflow.com/a/56144390/3478131
-- ipython
-- tqdm
-- platform-specific code, e.g. `os.path.join`
-- PyCharm
-- splitting into files, classes, functions
-- types, static/dynamic type checkers, mypy
-
 
 ## Базы данных
 Базовый синтаксис SQL, SQLite, драйвер для языка программирования.
